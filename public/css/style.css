@@ -1,0 +1,203 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    background: #000;
+    position: fixed;
+    height: 88px;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    color: #fff;
+    margin-left: px;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: Noto serif JP;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav a:visited {
+    color:#fff;
+    text-decoration:underline;
+}
+
+nav a:hover {
+    color: #D6D5D2;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-left: 32px;
+    font-family: Noto serif JP;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    background-color: #4b7696;
+    padding-bottom: 100px;
+}
+
+.keiro{
+    background-image: url(/image/haikei.png);
+    padding-bottom: 56px;
+}
+
+.keiro-mozi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D6D5D2;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.keiro h2{
+    font-size: 32px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-family: Noto serif JP;
+}
+
+.mitinori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mitinori img{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition:1s all;
+}
+
+
+.mitinori img:hover{
+  transform: scale( 1.1, 1.1);
+  transition: 1s all;
+}
+
+.mitinori2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mitinori2 img{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mitinori3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mitinori3 img{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.kousiki{
+    background-image: url(/image/haikei.png);
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.kousiki-mozi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-top: 1px solid #D6D5D2;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.kousiki h2{
+    font-size: 32px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-family: Noto serif JP;
+}
+
+.rinnku{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rinnku a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #282828;
+    font-family: Noto serif JP;
+    background-color: #D6D5D2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.rinnku a:hover{
+    background-color: #b8b6b4;
+}
+
+.setumei{
+    background-image: url(/image/haikei.png);
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.saitonituite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #D6D5D2;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.saitonituite h2{
+    font-size: 32px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-family: Noto serif JP;
+}
+
+.setumeibunn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setumeibunn p{
+    font-size: 15px;
+    font-family: Noto Sans JP;
+}

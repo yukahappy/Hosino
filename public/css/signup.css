@@ -1,0 +1,11 @@
+
+.sinnkioya {
+  display: flex;
+  justify-content: center;
+  background-image: url(/image/haikei.png);
+  height: 100vh;
+}
+
+.sinnki{
+  padding-top: 120px;
+}

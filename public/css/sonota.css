@@ -1,0 +1,62 @@
+
+
+body{
+    margin: 0;
+}
+
+.header {
+    width: 100vw;
+    background: #000;
+    position: fixed;
+    height: 88px;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-left: 32px;
+    font-family: Noto serif JP;
+}
+
+.home-yado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/image/haikei.png);
+}
+
+.home-yado img {
+    margin-top: 88px;
+}
+
+.setumei{
+    background: url(/image/haikei.png);
+    padding-bottom: 42px;
+}
+
+.setumei h2{
+    font-size: 40px;
+    font-family: Noto serif JP;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.setumei-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setumei-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setumei-p p{
+    font-size: 15px;
+    font-family: Noto Sans JP;
+}
